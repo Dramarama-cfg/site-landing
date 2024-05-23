@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VT-KLIMA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <section class="logo">
+        <div class="collum">
+            <div class="header">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="{{ url_for('static', filename='icons/gfgrg.svg') }}" alt="icon" class="logo_icon">
+                    </div>
+                    <div class="col-md-2 offset-md-2">
+                        <div class="mobile_phone">
+                            <div class="call">+421951419378</div>
+                            <button class="tel_btn" onclick="window.location.href='tel:+421951419378'">Zavolat'</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="send">
+                            <button class="send_btn" onclick="window.location.href='mailto:vt.klima.sk@gmail.com'">Napíšte nám</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="center">
+        <div class="collum">
+            <div class="frame_left"></div>
+            <div class="frame_right"></div>
+            <div class="album">
+                <img src="{{ url_for('static', filename='img/the-man-is-holding-a-notebook-and-checking-the-air-conditioner-inside-435305829.png') }}" alt="img2">
+                <img src="{{ url_for('static', filename='img/2.png') }}" alt="img2">
+                <img src="{{ url_for('static', filename='img/4.jpg') }}" alt="img4">
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="collum">
+            <h1 class="header">Firma VT-Klima</h1>
+            <h2 class="subheader">Prečo práve my?</h2>
+            <div class="info_descr">
+                Máme niekoľko dôvodov, prečo by ste mali zvoliť našu firmu na inštaláciu vášho klimatizátora. <br>
+                <br>
+                Skúsenosti: Máme ročné skúsenosti v oblasti inštalácie klimatizácií a poznáme všetky nuansy tohto procesu. Naši kvalifikovaní odborníci sa postarajú o to, aby bol váš klimatizátor nainštalovaný správne už na prvýkrát.
+                <br><br>
+                Kvalita: Pracujeme len s najlepšími materiálmi a vybavením. Môžete si byť istí, že váš klimatizátor bude fungovať na najvyššej úrovni po dlhú dobu.
+                <br><br>
+                Profesionálny prístup: Kladieme veľký dôraz na detaily a osobný prístup ku každému zákazníkovi. Vaše spokojnosť je naším prioritou.
+                <br><br>
+                Výhodné ceny: Ponúkame konkurencieschopné ceny bez strát kvality. Našim cieľom je urobiť inštaláciu klimatizácie dostupnou pre každého.
+                <br><br>
+                Vyberte našu firmu a zaručujeme, že vaša objednávka bude vykonaná rýchlo, profesionálne a kvalitne. Obráťte sa na nás pre klimatizátor, ktorý vám poskytne pohodlie vo vašom dome alebo kancelárii.
+                <br><br>
+                S úctou, VT-Klima 
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
